@@ -12,6 +12,14 @@
         <servlet-name>GestionUsuarios</servlet-name>
         <servlet-class>controladores.gestiones.GestionUsuarios</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>LogicaReportes</servlet-name>
+        <servlet-class>controladores.gestiones.LogicaReportes</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GeneradorReportes</servlet-name>
+        <servlet-class>controladores.gestiones.GeneradorReportes</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>GestionOfertas</servlet-name>
         <url-pattern>/GestionOfertas</url-pattern>
@@ -23,6 +31,14 @@
     <servlet-mapping>
         <servlet-name>GestionUsuarios</servlet-name>
         <url-pattern>/GestionUsuarios</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LogicaReportes</servlet-name>
+        <url-pattern>/LogicaReportes</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GeneradorReportes</servlet-name>
+        <url-pattern>/GeneradorReportes</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

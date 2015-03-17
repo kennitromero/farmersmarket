@@ -156,7 +156,7 @@
                     <!-- Contenedor de contenido especifico -->
                     <div class="container-fluid">
                         <div class="row col-md-4 col-md-offset-4 text-center">
-                            <form action="../Reportes" method="post">
+                            <form action="../LogicaReportes" method="post">
                                 <div class="form-group">
                                     <label>Buscar Producto</label>
                                     <input type="text" class="form-control" name="producto">
@@ -185,7 +185,7 @@
                         <div class="row ">
                             <div class="col-md-12 alert-link text-center">
                                 <h3>Resultados encontrados</h3>
-                                <a href="" class="">Generar Reporte</a>
+                                <a href="reporteproductos.jsp" class="">Generar Reporte</a>
                             
                         </div>
                         <div class="row col-md-12">                            
